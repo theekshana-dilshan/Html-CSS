@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inqueris</title>
+</head>
+<body>
+  <h1>Inqeries</h1>
+
+  <form>
+    <label for="frist name">Frist Name</label><br>
+    <input type="text" placeholder="Enter your frist name" id="frist name"><br><br>
+
+    <label for="last name">Last Name</label><br>
+    <input type="text" placeholder="Enter your last name" id="last name"><br><br>
+
+    <label for="dob">Age</label><br>
+    <input type="date" id="dob"><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" placeholder="Enter your email" id="email"><br><br>
+
+    <label for="tel">Contact number</label><br>
+    <input type="tel" placeholder="07XXXXXXXX" id="tel"><br><br>
+
+    <div>
+      <label for="programms">Choose your Program:</label><br>
+      <select id="programms">
+        <optgroup label="Foundation">
+          <option value="java">Foundation in IT</option>
+          <option value="python">Foundation in Business management</option>
+        </optgroup>
+        <optgroup label="Diploma">
+          <option value="next">Diploma in IT</option>
+          <option value="next">Diploma in Business management</option>
+        </optgroup>
+        <optgroup label="HND">
+          <option value="springboot">HND in IT</option>
+          <option value="spring">HND in Business management</option>
+        </optgroup>
+        <optgroup label="Undergraduates">
+          <option value="springboot">Bachelor in IT</option>
+          <option value="spring">Bachelor in Commerce</option>
+        </optgroup>
+        <optgroup label="postgraduates">
+          <option value="springboot">MSc IT</option>
+          <option value="spring">MBA</option>
+        </optgroup>
+        <optgroup label="Doctorate">
+          <option value="springboot">DBA</option>
+          <option value="spring">Phd in ICT</option>
+        </optgroup>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="qualification">Select your country:</label><br>
+      <input type="text" id="qualification" placeholder="Your latest qualification le" list="qualifications">
+      <datalist id="qualifications">
+        <option value="O/L">O/L</option>
+        <option value="A/L">A/L</option>
+        <option value="Diploma">Diploma</option>
+        <option value="Degree">Degree</option>
+        <option value="Masters">Masters</option>
+        <option value="Phd">Phd</option>
+      </datalist>
+    </div>
+
+  </form>
+</body>
+</html>
