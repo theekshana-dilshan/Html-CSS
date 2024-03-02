@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css7</title>
+
+  <style>
+    ul>:nth-child(1)>ol>li:nth-child(1){
+      color: red;
+    }
+
+    ul>:nth-child(1)>ol>li:nth-child(2){
+      color: orange;
+    }
+
+    ul>:nth-child(1)>ol li{
+      color: pink;
+    }
+
+    ul>:nth-child(2)>ol>li>ol>li:nth-child(3)>ul>li:nth-child(2){
+      color: blue;
+    }
+
+    ul>:nth-child(2)>ol>li>ol>li:nth-child(5){
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>
+      Java
+      <ol>
+        <li>Java Basics</li>
+        <li>JavaEE</li>
+        <li>Java Spring Boot</li>
+        <li>MySql</li>
+      </ol>
+    </li>
+    <li>
+      UI Technologies
+      <ol>
+        <li>HTML
+          <ol>
+            <li>Introduction to HTML</li>
+            <li>HTML Text Formatting</li>
+            <li>
+              HTML Multimedia
+              <ul>
+                <li>Add Images</li>
+                <li>Add Videos</li>
+                <li>Add Audios</li>
+              </ul>
+            </li>
+            <li>HTML Forms</li>
+            <li>HTML Tables</li>
+          </ol>
+        </li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
+    </li>
+    <li>
+      AWS and ML
+    </li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css 02</title>
+
+  <style>
+    /*pseudo-class-selector*/
+      /*h1:hover{
+        background: yellow;
+      }
+
+      a:visited{
+        color: hotpink;
+      }
+
+      a:link{
+        color: orangered;
+      }
+
+      h1:active{
+        background: red;
+      }
+
+      input:focus{
+        background: cadetblue;
+      }*/
+
+    /*pseudo-class-selector-part02*/
+      /*li:first-child{
+        color: red;
+      }
+
+      li:last-child{
+        color: darkgreen;
+      }
+
+      li:nth-child(3){
+        color: hotpink;
+      }*/
+
+      /*li:nth-last-child(2){
+        color: red;
+      }
+
+      li:only-child{
+        color: teal;
+      }*/
+
+    /*pseudo-element-selector*/
+    h1::before{
+      content: "Let's say";
+    }
+
+    h1::after{
+      content: "😶‍🌫️";
+    }
+
+    h3::first-letter{
+      color: red;
+      font-size: xxx-large;
+    }
+
+    p::first-line{
+      color: teal;
+      font-weight: bolder;
+      font-family: "Berlin Sans FB";
+    }
+
+    input::placeholder{
+      color: red;
+    }
+
+    input::file-selector-button{
+      background-color: hotpink;
+    }
+
+    input::file-selector-button:hover{
+      background-color: teal;
+    }
+
+    ::marker{
+      content: "🥑";
+    }
+
+    ::selection{
+      background-color: darkslategrey;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<!--pseudo-element-selector-->
+    <h1>Hello CSS</h1>
+
+    <h3>Welcome to IJSE</h3>
+
+    <form action="">
+      <input type="text" placeholder="Enter your ID"><br><br>
+      <input type="file">
+    </form>
+
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>C</li>
+      <li>C++</li>
+    </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, fuga incidunt laudantium nam nesciunt numquam obcaecati tempora voluptatum! Aperiam blanditiis dolorum et fuga ipsam magni nulla numquam reiciendis!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, fuga incidunt laudantium nam nesciunt numquam obcaecati tempora voluptatum! Aperiam blanditiis dolorum et fuga ipsam magni nulla numquam reiciendis!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, fuga incidunt laudantium nam nesciunt numquam obcaecati tempora voluptatum! Aperiam blanditiis dolorum et fuga ipsam magni nulla numquam reiciendis!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, fuga incidunt laudantium nam nesciunt numquam obcaecati tempora voluptatum! Aperiam blanditiis dolorum et fuga ipsam magni nulla numquam reiciendis!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem eveniet, fuga incidunt laudantium nam nesciunt numquam obcaecati tempora voluptatum! Aperiam blanditiis dolorum et fuga ipsam magni nulla numquam reiciendis!
+    </p>
+
+<!--pseudo-class-selector-->
+    <!--<hr>
+    <h1>Welcome</h1>
+
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>C</li>
+      <li>C++</li>
+      <li>C#</li>
+    </ul>
+
+    &lt;!&ndash;apply only child when there is a one child&ndash;&gt;
+    <ul>
+      <li>Java</li>
+    </ul>
+
+    <hr>
+    <a href="https://github.com"> Git hub </a><br>
+
+    <a href="https://classroom.google.com"> Class room </a><br>
+
+    <a href="https://www.figma.com"> Figma </a><br>
+
+    <a href="https://developer.mozilla.org"> MDN </a><br><br>
+
+    <form action="">
+      <label for="txt">Text:</label>
+      <input id="txt" type="text">
+    </form>-->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+
+  <style>
+    #btn{/*(0, 1, 0, 0)*/
+        color: blue;
+    }
+
+    .Button{/*(0, 0, 1, 0)*/
+      color: green;
+    }
+
+    button{/*(0, 0, 0, 1)*/
+      color: red;
+    }
+
+    *{/*(0, 0, 0, 0)*/
+        color: orange;
+    }
+
+    /*----------------------------------------------------------*/
+
+    h1{/*(0, 0, 0, 1)*/
+        color: orange;
+    }
+
+    .heading{/*(0, 0, 1, 0)*/
+        color: blue;
+    }
+
+    [name]{/*(0, 0, 1, 0)*/
+        color: red;
+    }
+
+    .heading[name]{/*(.heading = (0, 0, 1, 0) [name] = (0, 0, 1, 0)
+                     .heading + [name] = (0, 0, 1, 0) + (0, 0, 1, 0) = (0, 0, 2, 0) */
+        color: cyan;
+    }
+  </style>
+</head>
+<body>
+    <button type="button" id="btn" class="Button">Click</button>
+
+    <h1 class="heading" name="">Hello</h1>
+    <h1 class="heading">Welcome</h1>
+    <h1 name="">Hello</h1>
+</body>
+</html>
